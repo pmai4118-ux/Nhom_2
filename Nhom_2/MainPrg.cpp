@@ -34,8 +34,7 @@ int main()
 		{
 			double a, b, c, d, x1, x2, x3;
 			int sn;
-			cout << "Enter coefficients a, b, c and d: ";
-			cin >> a >> b >> c >> d;
+			EquationInput(a, b, c, d);
 			sn = EquaDeg3(a, b, c, d, x1, x2, x3);
 			EquaDisplay(a, b, c, d, 3);
 			SolutionPrint(sn, x1, x2, x3);

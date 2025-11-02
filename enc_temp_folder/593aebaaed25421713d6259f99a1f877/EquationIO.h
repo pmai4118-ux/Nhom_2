@@ -7,6 +7,5 @@ void EquaDisplay(double, double, double, int);
 void EquaDisplay(double, double, double, double, int);
 void EquationInput(double&, double&);
 void EquationInput(double&, double&, double&);
-void EquationInput(double&, double&, double&, double&);
 
 #endif // _EQUATIONIO_H_

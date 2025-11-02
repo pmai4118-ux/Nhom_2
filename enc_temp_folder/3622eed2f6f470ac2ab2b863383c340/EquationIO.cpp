@@ -54,8 +54,4 @@ void EquationInput(double& a, double& b, double& c)
 	cout << "Enter coefficients a, b and c: ";
 	cin >> a >> b >> c;
 }
-void EquationInput(double& a, double& b, double & c, double& d)
-{
-	cout << "Enter coefficients a, b, c and d: ";
-	cin >> a >> b >> c >> d;
-}
+
