@@ -41,10 +41,10 @@ int EquaDeg3(double a, double b, double c, double d, double& x1, double& x2, dou
 		x0 = x1k;
 	}
 	x1 = x0;
-
 	double A2 = a;
 	double B2 = b + a * x1;
 	double C2 = c + b * x1 + a * x1 * x1;
+
 	double rem = d + C2 * x1;  
 
 	int nSol2 = EquaDeg2(A2, B2, C2, x2, x3);

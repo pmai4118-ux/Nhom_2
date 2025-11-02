@@ -9,7 +9,7 @@ int main()
 {
 	while (1)
 	{
-		cout << "Enter degree of coefficients (1->4): ";
+		cout << "Enter degree of coefficients (1/2/4): ";
 		int deg;
 		cin >> deg;
 		if (deg == 2)

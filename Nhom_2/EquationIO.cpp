@@ -38,7 +38,11 @@ void EquaDisplay(double a, double b)
 }
 void EquaDisplay(double a, double b, double c, int deg)
 {
-	cout << "The equation is: " << a << "x^" << deg << " + "<< b << "x" << "^" << deg / 2 << " + " << c << " = 0" << endl;
+	cout << "The equation is: " << a << "x^" << deg << " + "<< b << "x^" << deg / 2 << " + " << c << " = 0" << endl;
+}
+void EquaDisplay(double a, double b, double c, double d, int deg)
+{
+	cout << "The equation is: " << a << "x^" << deg << " + " << b << "x^" << (deg - 1) << " + " << c << "x + " << d << " = 0" << endl;
 }
 void EquationInput(double& a, double& b)
 {
@@ -50,3 +54,4 @@ void EquationInput(double& a, double& b, double& c)
 	cout << "Enter coefficients a, b and c: ";
 	cin >> a >> b >> c;
 }
+
